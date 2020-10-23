@@ -198,8 +198,8 @@ class OverheadInfo(object):
         game_label = []
         over_label = []
 
-        self.create_label(game_label, 'GAME', 280, 300)
-        self.create_label(over_label, 'OVER', 400, 300)
+        self.create_label(game_label, 'HAPPY', 250, 300)
+        self.create_label(over_label, 'BIRTHDAY', 400, 300)
 
         self.game_over_label = [game_label, over_label]
 
@@ -220,7 +220,7 @@ class OverheadInfo(object):
         top_score = []
 
         self.create_label(player_one_game, '1 PLAYER GAME', 272, 360)
-        self.create_label(player_two_game, '2 PLAYER GAME', 272, 405)
+        self.create_label(player_two_game, 'NO 2P', 272, 405)
         self.create_label(top, 'TOP - ', 290, 465)
         self.create_label(top_score, '000000', 400, 465)
 
